@@ -128,11 +128,11 @@ async function startWA() {
 
         // Envia vídeos
         await sock.sendMessage(jid, {
-          video: { url: "https://raw.githubusercontent.com/JVSM-GAMES/Chatbot_Trafego/refs/heads/main/Misturador.mp4" },
+          video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/misturador.mp4" },
           caption: "Misturador de rações!"
         })
         await sock.sendMessage(jid, {
-          video: { url: "https://raw.githubusercontent.com/JVSM-GAMES/Chatbot_Trafego/refs/heads/main/Triturador.mp4" },
+          video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/triturador.mp4" },
           caption: "Triturador potente!"
         })
       }
