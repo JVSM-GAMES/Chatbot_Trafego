@@ -122,7 +122,7 @@ async function startWA() {
 
         // Envia imagem
         await sock.sendMessage(jid, {
-          image: { url: "https://raw.githubusercontent.com/JVSM-GAMES/Chatbot_Trafego/refs/heads/main/450106494_1184806682764208_4902864346130955971_n.jpg" },
+          image: { url: "https://raw.githubusercontent.com/JVSM-GAMES/Chatbot_Trafego/refs/heads/main/CgAgro.jpeg" },
           caption: "🌿 Olá, seja bem-vindo ao *CG AGRO* 🌿"
         })
 
