@@ -50,17 +50,17 @@ async function startSock() {
             // Envia a imagem com texto
             await sock.sendMessage(sender, {
                 image: { url: "https://raw.githubusercontent.com/JVSM-GAMES/Chatbot_Trafego/refs/heads/main/450106494_1184806682764208_4902864346130955971_n.jpg" },
-                caption: "🌿 Olá, seja bem-vindo ao atendimento *CG AGRO* 🌿"
+                caption: "🌿 Olá, seja bem-vindo ao *CG AGRO* 🌿"
             })
 
             // Envia os dois vídeos
             await sock.sendMessage(sender, {
-                video: { url: "https://example.com/video1.mp4" },
-                caption: "Conheça mais sobre nossos produtos!"
+                video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/Misturador.mp4" },
+                caption: "Misturador de rações!"
             })
             await sock.sendMessage(sender, {
-                video: { url: "https://example.com/video2.mp4" },
-                caption: "Aqui está mais um vídeo informativo!"
+                video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/Triturador.mp4" },
+                caption: "Triturador potente!"
             })
         }
     })
