@@ -49,7 +49,7 @@ async function startSock() {
 
             // Envia a imagem com texto
             await sock.sendMessage(sender, {
-                image: { url: "https://example.com/boasvindas.png" },
+                image: { url: "https://raw.githubusercontent.com/JVSM-GAMES/Chatbot_Trafego/refs/heads/main/450106494_1184806682764208_4902864346130955971_n.jpg" },
                 caption: "🌿 Olá, seja bem-vindo ao atendimento *CG AGRO* 🌿"
             })
 
