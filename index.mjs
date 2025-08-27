@@ -128,21 +128,21 @@ async function startWA() {
 
         // Envia vídeos
         await sock.sendMessage(jid, {
-          video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/misturador.mp4" },
-          caption: "Temos Misturador de rações!"
+          video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/trituradoremisturador.mp4" },
+          caption: "1"
         })
         await sock.sendMessage(jid, {
           video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/triturador.mp4" },
-          caption: "Temos Triturador de milho!"
+          caption: "2"
         })
         await sock.sendMessage(jid, {
-          video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/trituradoremisturador.mp4" },
-          caption: "Caso precise de ambos, também poderemos lhe atender!"
+          video: { url: "https://github.com/JVSM-GAMES/Chatbot_Trafego/raw/refs/heads/main/misturador.mp4" },
+          caption: "3"
         })
         
         //Envia mensagem
         await sock.sendMessage(jid, {
-          text: "Diga do que precisa e iremos lhe atender! 😉"
+          text: "Digite qual opção voçê deseja, 1, 2 ou 3 😉"
         })
       }
     }
